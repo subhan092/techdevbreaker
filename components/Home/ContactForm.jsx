@@ -1,7 +1,7 @@
 // components/ContactForm.js
 "use client";
 
-import { User, Mail, Building2, FileText } from "lucide-react";
+import { User, Mail, Building2, FileText, Smile } from "lucide-react";
 import { useState } from "react";
 
 export default function ContactForm() {
@@ -25,10 +25,10 @@ export default function ContactForm() {
   };
 
   return (
-    <section id="contact" className="bg-[#0A0F2C] py-16 px-6">
-      <div className="max-w-3xl mx-auto bg-[#0F1639] rounded-2xl shadow-lg p-8 border border-white/10">
-        <h2 className="text-3xl font-bold text-white text-center mb-6">
-          Let’s Build Something Great
+    <section id="contact" className="bg-[#0A0F2C] py-16 px-3 md:px-6">
+      <div className="max-w-3xl mx-auto bg-[#0F1639] rounded-2xl shadow-lg p-2 lg:p-8  border border-white/10">
+        <h2 className="text-3xl lg:text-5xl font-bold text-white text-center mb-6">
+          Let’s Build Something <span className="text-[#1447E6] flex justify-center items-center gap-3 drop-shadow-[0_0_12px_#1447E6]">  Great <Smile className="text-white" size={30}/></span>
         </h2>
         <form onSubmit={handleSubmit} className="space-y-6">
           {/* Full Name */}

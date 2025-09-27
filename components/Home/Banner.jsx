@@ -2,8 +2,8 @@ import React from 'react'
 
 const Banner = () => {
   return (
-    <section className="relative py-16 text-center text-white bg-gradient-to-r from-[#0A0F2C] via-[#1447E6] to-[#0A0F2C]">
-  <h2 className="text-3xl md:text-4xl font-bold mb-4 drop-shadow-[0_0_15px_#1447E6]">
+    <section className="relative py-16 px-3   text-center text-white bg-gradient-to-r from-[#0A0F2C] via-[#1447E6] to-[#0A0F2C]">
+  <h2 className="text-3xl leading-12 md:text-4xl font-bold mb-4 drop-shadow-[0_0_15px_#1447E6]">
     Ready to Break Barriers with TechDevBreakers?
   </h2>
   <p className="text-gray-200 mb-6">Let’s build something extraordinary together.</p>
