@@ -46,7 +46,7 @@ export default function Navbar() {
         </div>
 
         {/* Desktop Menu */}
-        <div className="hidden md:flex items-center gap-8 text-white">
+        <div className="hidden lg:flex items-center gap-8 text-white">
           {navItems.map((item) => (
             <button
               key={item.id}
@@ -67,7 +67,7 @@ export default function Navbar() {
         </div>
 
         {/* Mobile Menu Toggle */}
-        <div className="md:hidden text-white">
+        <div className="lg:hidden text-white">
           {isOpen ? (
             <X size={28} onClick={() => setIsOpen(false)} className="cursor-pointer" />
           ) : (
@@ -78,7 +78,7 @@ export default function Navbar() {
 
       {/* Mobile Dropdown Menu */}
       {isOpen && (
-        <div className="md:hidden bg-[#0A0F2C]/95 text-white px-6 py-6 flex flex-col  items-center gap-6">
+        <div className="lg:hidden bg-[#0A0F2C]/95 text-white px-6 py-6 flex flex-col  items-center gap-6">
           {navItems.map((item) => (
             <button
               key={item.id}

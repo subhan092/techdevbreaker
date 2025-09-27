@@ -1,5 +1,6 @@
 [
     {   
+        "img"  : "/ragchat1.PNG",
         "link":  "/portfolio/RAG-Based-Chatbot-with-Document-Upload",
         "title": "RAG Based Chatbot with Document Upload",
         "description": "An intelligent chatbot system that allows users to upload their documents, processes them in real-time, and enables interactive Q&A with context-aware responses using Retrieval-Augmented Generation (RAG). The chatbot ensures that the document is securely stored and indexed before enabling user interaction.",
@@ -33,6 +34,7 @@
         "tags": ["RAG", "AI Chatbot", "LangChain", "Next.js", "QuadrantDB", "Docker"]
       },
       {
+        "img" : "/ailms.png",
         "link":  "/portfolio/AI-Powered-LMS",
         "title": "AI Powered LMS",
         "description": "A personalized AI-driven LMS that adapts to user goals such as exam prep, practice, or interview readiness. The system generates tailored course outlines, notes, and quizzes based on difficulty levels chosen by the learner, delivering a smarter and more engaging learning experience.",
@@ -70,6 +72,7 @@
         "tags": ["LMS", "AI Learning", "Gemini API", "PostgreSQL", "Next.js", "Inngest"]
       },
       {
+        "img" : "/Joblo.png",
         "link" :"/portfolio/JobLo-AI-Powered-Recruitment-Platform",
         "title": "JobLo AI Powered Recruitment Platform",
         "subtitle": "Smart hiring with AI ranking & automated reports",

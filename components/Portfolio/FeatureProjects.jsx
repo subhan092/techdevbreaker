@@ -6,7 +6,8 @@ import "swiper/css/navigation";
 import BgAnimation from "../BgAnimation";
 import Link from "next/link";
 import { ArrowRight, CircleArrowOutUpRight } from "lucide-react";
-import  projects from "@/data/Projects.json";
+import projects from "@/data/Projects.json";
+import Image from "next/image";
 
 export default function FeatureProjects() {
   return (
@@ -27,17 +28,30 @@ export default function FeatureProjects() {
               key={i}
               className="group relative rounded-2xl overflow-hidden shadow-lg bg-white/5 backdrop-blur-md border border-white/10 hover:scale-105 hover:border-purple-700  transition-all"
             >
-              <img
-                src={p.img}
-                alt={p.title}
-                className="w-full h-52 object-cover"
-              />
+              <div className="relative w-full h-64">
+                <Image
+                  src={p?.img}
+                  alt={p?.title}
+                  fill
+                  className="object-cover rounded-lg"
+                />
+              </div>
+
               <div className="p-6">
                 <h3 className="text-xl font-semibold">{p.title}</h3>
                 <p className="mt-2 text-gray-300">{p.desc}</p>
                 <div className="py-4  ">
-                    <Link href={`${p.link}`}><button className="btn-secondary flex gap-2 items-center
-                    ">View<span><CircleArrowOutUpRight size={20}/></span></button></Link>
+                  <Link href={`${p.link}`}>
+                    <button
+                      className="btn-secondary flex gap-2 items-center
+                    "
+                    >
+                      View
+                      <span>
+                        <CircleArrowOutUpRight size={20} />
+                      </span>
+                    </button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -70,9 +84,18 @@ export default function FeatureProjects() {
                     <h3 className="text-xl font-semibold">{p.title}</h3>
                     <p className="mt-2 text-gray-300">{p.desc}</p>
                     <div className="py-4  ">
-                    <Link href={`${p.link}`}><button className="btn-secondary flex gap-2 items-center
-                    ">View<span><CircleArrowOutUpRight size={20}/></span></button></Link>
-                </div>
+                      <Link href={`${p.link}`}>
+                        <button
+                          className="btn-secondary flex gap-2 items-center
+                    "
+                        >
+                          View
+                          <span>
+                            <CircleArrowOutUpRight size={20} />
+                          </span>
+                        </button>
+                      </Link>
+                    </div>
                   </div>
                 </div>
               </SwiperSlide>

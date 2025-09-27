@@ -44,7 +44,7 @@ export default function BreakProblemsSection() {
         <ProcessAnimation />
       <div className="max-w-7xl flex flex-col gap-18 justify-center items-center mx-auto">
               <div className="space-y-3 text-center">
-              <h2>Be a Pioneer. Break Barriers With Us</h2>
+              <h2 className="text-3xl font-bold lg:text-5xl">Be a Pioneer. Break Barriers With Us</h2>
               <div className="flex justify-center gap-2 "><Quote/> <p className="pt-4 text-shadow-blue-500 shadow-md">first 10 partners aren’t just clients </p><Quote/> <br /> </div> <p> they’re part of our story. Together, we’ll break limits and set new standards in digital innovation.</p>
               </div>
             <div className="grid lg:grid-cols-2 gap-12 justify-center items-center  ">

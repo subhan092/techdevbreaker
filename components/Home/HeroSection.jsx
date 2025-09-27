@@ -15,7 +15,7 @@ const HeroSection = () => {
     
           {/* Left Side */}
           <div className="md:w-[60%] text-center  md:text-left z-10 ">
-            <h1 className="text-5xl md:text-6xl font-bold text-white leading-tight">
+            <h1 className="text-4xl md:text-6xl font-bold text-white leading-tight">
               Break the Limits with <br /> TechDev
               <span className="text-blue-700">Breakers</span>
             </h1>
@@ -23,7 +23,7 @@ const HeroSection = () => {
               AI solutions, digital marketing, and creative design – built for the
               future.
             </p>
-            <div className="flex justify-center md:justify-normal gap-4  mt-7">
+            <div className="flex flex-col justify-center md:flex-row md:justify-normal gap-4  mt-7">
             <button className="btn-primary">See our portfolio</button>
             <button className="btn-secondary">Contact us</button>
             </div>

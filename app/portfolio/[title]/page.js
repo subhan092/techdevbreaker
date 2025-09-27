@@ -39,7 +39,7 @@ export default function ProjectDetail() {
       <section className="max-w-5xl mx-auto px-6 py-12">
         <div className="rounded-2xl overflow-hidden shadow-lg border border-white/10">
           <Image
-            src={project.screenshot}
+            src={project.img}
             alt={project.title}
             width={1200}
             height={600}

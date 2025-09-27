@@ -8,7 +8,7 @@ export default function AboutSection() {
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-12">
         {/* Left Side (Text Content) */}
         <div className="md:w-1/2 text-center md:text-left">
-          <h2 className="text-4xl md:text-5xl font-extrabold text-white leading-tight">
+          <h2 className="text-3xl md:text-5xl font-extrabold text-white leading-tight">
             ⚡ We Break Barriers, <br />
             <span className="text-blue-700">You Break Through.</span>
           </h2>
