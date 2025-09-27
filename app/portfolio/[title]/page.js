@@ -24,7 +24,7 @@ export default function ProjectDetail() {
       {/* Banner */}
       <section className="relative h-72 flex items-center justify-center bg-gradient-to-r from-blue-900 to-blue-600">
         <div className="absolute  left-8 top-5 ">
-            <a   href={'http://localhost:3000/'} className="flex items-center  "  ><ArrowLeft size={30} />
+            <a   href={'/'} className="flex items-center  "  ><ArrowLeft size={30} />
             Go Back</a>
         </div>
         <h1 className="text-4xl md:text-5xl font-bold text-center">
