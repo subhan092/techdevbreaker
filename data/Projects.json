@@ -1,0 +1,127 @@
+[
+    {   
+        "link":  "/portfolio/RAG-Based-Chatbot-with-Document-Upload",
+        "title": "RAG Based Chatbot with Document Upload",
+        "description": "An intelligent chatbot system that allows users to upload their documents, processes them in real-time, and enables interactive Q&A with context-aware responses using Retrieval-Augmented Generation (RAG). The chatbot ensures that the document is securely stored and indexed before enabling user interaction.",
+        "features": [
+          "🔒 Secure authentication and user management with Clerk",
+          "📄 Document upload and processing with LangChain",
+          "⚡ Chat interface with real-time response generation",
+          "✅ Chat input enabled only after successful document save in DB",
+          "📂 Document indexing with Quadrant DB for efficient retrieval",
+          "🐳 Background job handling with Docker for runtime processing",
+          "🔎 Context-aware answers powered by Retrieval-Augmented Generation"
+        ],
+        "tech_stack": {
+          "frontend": ["Next.js", "TailwindCSS"],
+          "backend": ["Node.js", "Express"],
+          "database": ["Quadrant DB"],
+          "security": ["Clerk Authentication"],
+          "AI & NLP": ["LangChain"],
+          "background_jobs": ["Docker Runtime Workers"]
+        },
+        "workflow": {
+          "step1": "User logs in via Clerk authentication.",
+          "step2": "User uploads document through chatbot interface.",
+          "step3": "Document is processed and stored in Quadrant DB.",
+          "step4": "Background jobs (Docker workers) handle indexing.",
+          "step5": "Once document is indexed successfully, chat input is enabled.",
+          "step6": "User can send queries, and chatbot responds using RAG pipeline."
+        },
+        "project_type": "AI-Powered Web App",
+        "status": "Prototype / Demo Ready",
+        "tags": ["RAG", "AI Chatbot", "LangChain", "Next.js", "QuadrantDB", "Docker"]
+      },
+      {
+        "link":  "/portfolio/AI-Powered-LMS",
+        "title": "AI Powered LMS",
+        "description": "A personalized AI-driven LMS that adapts to user goals such as exam prep, practice, or interview readiness. The system generates tailored course outlines, notes, and quizzes based on difficulty levels chosen by the learner, delivering a smarter and more engaging learning experience.",
+        "features": [
+          "🔐 Secure login and user management with Clerk authentication",
+          "📚 Personalized course creation by selecting goal (exam, practice, interview, etc.)",
+          "⚙️ Difficulty level options: Easy, Moderate, Advanced, Complex",
+          "🤖 AI-powered content & resource generation using Gemini API",
+          "⚡ Background job handling with Inngest for smooth experience",
+          "📝 Auto-generated course outlines stored in PostgreSQL",
+          "📄 Dynamic note generation for each course",
+          "❓ Quiz generation for previously created courses",
+          "📊 Scalable design for continuous learning improvements"
+        ],
+        "tech_stack": {
+          "frontend": ["Next.js", "TailwindCSS"],
+          "backend": ["Node.js", "Express"],
+          "database": ["PostgreSQL"],
+          "security": ["Clerk Authentication"],
+          "AI & NLP": ["Gemini API"],
+          "background_jobs": ["Inngest"]
+        },
+        "workflow": {
+          "step1": "User logs in via Clerk authentication.",
+          "step2": "Learner selects learning goal (exam, practice, interview, etc.).",
+          "step3": "Learner chooses difficulty level (Easy, Moderate, Advanced, Complex).",
+          "step4": "Gemini API generates a personalized course outline and resources.",
+          "step5": "Background job processing handled by Inngest for seamless experience.",
+          "step6": "Generated course outline is saved in PostgreSQL.",
+          "step7": "User can view outline, generate notes, and request quizzes.",
+          "step8": "Notes and quizzes are displayed dynamically for learner engagement."
+        },
+        "project_type": "AI-Powered LMS Platform",
+        "status": "Prototype / Demo Ready",
+        "tags": ["LMS", "AI Learning", "Gemini API", "PostgreSQL", "Next.js", "Inngest"]
+      },
+      {
+        "link" :"/portfolio/JobLo-AI-Powered-Recruitment-Platform",
+        "title": "JobLo AI Powered Recruitment Platform",
+        "subtitle": "Smart hiring with AI ranking & automated reports",
+        "description": "JobLo is an AI-driven multi-role recruitment platform that helps recruiters rank candidates using NLP-based resume analysis and automatically generates recruiter reports. The platform bridges job seekers and recruiters with features like smart ranking, resume parsing, and report generation integrated with cloud storage.",
+      
+        "features": [
+          "AI-powered candidate ranking based on job descriptions",
+          "Automated recruiter report generation in PDF format",
+          "Cloudinary integration for secure report storage",
+          "Role-based authentication for Admin, Recruiter, and Job Seeker",
+          "FastAPI-powered AI services connected with Node.js backend",
+          "Seamless frontend UI with real-time status and download options"
+        ],
+      
+        "tech_stack": {
+          "frontend": ["React.js", "Redux Toolkit", "Tailwind CSS"],
+          "backend": ["Node.js", "Express.js", "FastAPI (Python)"],
+          "database": ["MongoDB"],
+          "security": ["JWT Authentication", "CORS Middleware"],
+          "AI & NLP": ["FastAPI", "Python", "Resume Parsing Models", "Ranking Logic"],
+          "background_jobs": ["Uvicorn Workers", "Async Tasks"],
+          "other": ["Cloudinary API for file storage", "Axios for API communication"]
+        },
+      
+        "workflow": {
+          "step1": "Recruiter posts a job with detailed requirements.",
+          "step2": "Candidates apply with resumes which are stored and parsed.",
+          "step3": "FastAPI AI service ranks candidates and generates a recruiter report, uploaded to Cloudinary.",
+          "step4": "Recruiter can view, download, and share AI-generated reports from the dashboard."
+        },
+      
+        "project_type": "AI-Powered Recruitment Web App",
+        "status": "In Progress",
+        
+        "tags": ["MERN", "FastAPI", "AI Recruitment", "Cloudinary", "Resume Ranking"],
+      
+        "links": {
+          "live_demo": "http://localhost:5173",
+          "github": "https://github.com/your-username/joblo",
+          "documentation": "https://docs.joblo.ai"
+        },
+      
+        "media": {
+          "screenshots": [
+            "https://res.cloudinary.com/demo/image/upload/v1234567890/joblo-dashboard.png",
+            "https://res.cloudinary.com/demo/image/upload/v1234567890/joblo-report.png"
+          ],
+          "videos": [
+            "https://res.cloudinary.com/demo/video/upload/v1234567890/joblo-demo.mp4"
+          ]
+        }
+      }
+            
+      
+]
