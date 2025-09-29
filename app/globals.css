@@ -25,7 +25,7 @@ p{
   /* font-size: 18px; */
 }
 .bg{
-  background: #0A0F2C;
+  background: rgb(10, 15, 44);
 }
 html {
   scroll-behavior: smooth;
@@ -34,7 +34,7 @@ html {
 
 /* Primary Button (filled gradient) */
 .btn-primary {
-  background: linear-gradient(90deg, #1027fa, #0c0fcf);
+  background: linear-gradient(90deg, #1027fa, lab(26.52% 64.63 -90.08));
   color: #ffffff;
   padding: 0.75rem 1.5rem;
   font-weight: 600;
@@ -66,4 +66,48 @@ html {
   background: rgba(32, 16, 250, 0.1);
   transform: translateY(-2px);
   box-shadow: 0 4px 15px rgba(39, 16, 250, 0.3);
+}
+
+@theme inline {
+  --animate-first: moveVertical 30s ease infinite;
+  --animate-second: moveInCircle 20s reverse infinite;
+  --animate-third: moveInCircle 40s linear infinite;
+  --animate-fourth: moveHorizontal 40s ease infinite;
+  --animate-fifth: moveInCircle 20s ease infinite;
+}
+
+@keyframes moveHorizontal {
+  0% {
+    transform: translateX(-50%) translateY(-10%);
+  }
+  50% {
+    transform: translateX(50%) translateY(10%);
+  }
+  100% {
+    transform: translateX(-50%) translateY(-10%);
+  }
+}
+
+@keyframes moveInCircle {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes moveVertical {
+  0% {
+    transform: translateY(-50%);
+  }
+  50% {
+    transform: translateY(50%);
+  }
+  100% {
+    transform: translateY(-50%);
+  }
 }

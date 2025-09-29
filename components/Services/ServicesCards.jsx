@@ -19,7 +19,7 @@ const serviesList =[
 
 export default function ServicesCards() {
   return (
-    <section className="relative w-full py-20">
+    <section className=" w-full py-20">
       <div className="max-w-6xl mx-auto px-10 text-center">
         {/* Heading */}
         <h2 className="text-4xl md:text-5xl font-bold text-white">

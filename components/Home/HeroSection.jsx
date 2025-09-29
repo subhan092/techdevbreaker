@@ -6,12 +6,13 @@ import ProcessAnimation from '@/components/ProcessAnimation';
 
 const HeroSection = () => {
   return (
-     <section className="relative w-full px-6 md:px-12 py-30  min-h-screen flex flex-col md:flex-row   justify-center  items-center gap-10">
+     <section className=" w-full px-6 md:px-12 py-30  min-h-screen flex flex-col md:flex-row   justify-center  items-center gap-10">
        
           {/* <div className="absolute inset-0 overflow-hidden">
             <AiLinesBackground/>
           </div> */}
-          <ProcessAnimation/>
+            {/* <BgAnimation /> */}
+          {/* <ProcessAnimation/> */}
     
           {/* Left Side */}
           <div className="md:w-[60%] text-center  md:text-left z-10 ">

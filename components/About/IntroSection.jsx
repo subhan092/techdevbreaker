@@ -4,7 +4,7 @@ import LockAnimation from "../IntroAnimation";
 
 export default function AboutSection() {
   return (
-    <section className="relative w-full  -mt-12 py-20 px-6 md:px-12">
+    <section className=" w-full  -mt-12 py-20 px-6 md:px-12">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-12">
         {/* Left Side (Text Content) */}
         <div className="md:w-1/2 text-center md:text-left">

@@ -27,10 +27,10 @@ const features = [
 
 export default function WhyChooseUs() {
   return (
-    <section className="relative   text-white py-12 flex items-center justify-center">
-       <div className="absolute top-0 w-full h-full inset-0 overflow-hidden">
+    <section className="   text-white py-12 flex items-center justify-center">
+       {/* <div className="absolute top-0 w-full h-full inset-0 overflow-hidden">
             <AiLinesBackground/>
-          </div>
+          </div> */}
           
       <div className="relative w-full max-w-6xl flex flex-col items-center px-6">
         

@@ -40,8 +40,8 @@ const offers = [
 
 export default function BreakProblemsSection() {
   return (
-    <section className="relative w-full z-20    text-white py-20 px-6 md:px-12">
-        <ProcessAnimation />
+    <section className=" w-full z-20    text-white py-20 px-6 md:px-12">
+        {/* <ProcessAnimation /> */}
       <div className="max-w-7xl flex flex-col gap-18 justify-center items-center mx-auto">
               <div className="space-y-3 text-center">
               <h2 className="text-3xl font-bold lg:text-5xl">Be a Pioneer. Break Barriers With Us</h2>
