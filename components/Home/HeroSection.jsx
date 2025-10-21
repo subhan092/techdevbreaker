@@ -1,3 +1,4 @@
+
 import React from 'react'
 import AnimatedIcon from "@/components/AnimatedIcon";
 import BgAnimation from "@/components/BgAnimation";
@@ -8,11 +9,10 @@ const HeroSection = () => {
   return (
      <section className=" w-full px-6 md:px-12 py-30  min-h-screen flex flex-col md:flex-row   justify-center  items-center gap-10">
        
-          {/* <div className="absolute inset-0 overflow-hidden">
+       <div className="absolute top-0 w-full h-full inset-0 overflow-hidden">
             <AiLinesBackground/>
-          </div> */}
-            {/* <BgAnimation /> */}
-          {/* <ProcessAnimation/> */}
+          </div>
+          
     
           {/* Left Side */}
           <div className="md:w-[60%] text-center  md:text-left z-10 ">

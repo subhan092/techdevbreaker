@@ -4,18 +4,20 @@ import BreakProblemsSection from "@/components/Home/BreakproblemSection";
 import ContactForm from "@/components/Home/ContactForm";
 import HeroSection from "@/components/Home/HeroSection";
 import WhyChooseUs from "@/components/Home/WhyUs";
+import Loader from "@/components/Loader";
 import FeatureProjects from "@/components/Portfolio/FeatureProjects";
 import ServicesCards from "@/components/Services/ServicesCards";
 import { BackgroundGradientAnimation } from "@/components/ui/background-gradient-animation";
 import Navbar from "@/components/ui/Navbar";
 
 export default function Home() {
+ 
   return (
-    <section className="relative max-w-full overflow-hidden">
+    <section className="relative bg-[#0A0F2C] max-w-full overflow-hidden">
       <Navbar />
 
       {/* Background animation full-page */}
-      <div className="fixed inset-0 -z-10">
+      {/* <div className="fixed inset-0 -z-10">
         <BackgroundGradientAnimation
           gradientBackgroundStart={"rgb(10, 15, 44)"}
           gradientBackgroundEnd={"rgb(10, 15, 44)"}
@@ -28,7 +30,8 @@ export default function Home() {
           size={"70%"}
           blendingValue="screen"
         />
-      </div>
+      </div> */}
+      {/* <Loader/> */}
 
       {/* Page content */}
       <div className="relative z-50">

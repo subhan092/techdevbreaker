@@ -36,7 +36,7 @@ export default function ServicesCards() {
                   <div key={index} className="relative group rounded-2xl bg-white/5 backdrop-blur-md border border-white/10 px-5 py-8 shadow-lg transition-transform duration-300  hover:border-purple-500/50">
                   {/* Lottie Placeholder */}
                   <div className="w-20 h-20 mx-auto  my-10 flex items-center justify-center rounded-full shadow-md">
-                    {/* <span >{item.icon}</span> */}
+                    <span >{item.icon}</span>
                   </div>
                   <h3 className="text-xl font-semibold text-white">{item.title}</h3>
                   <p className="mt-3 text-gray-300 leading-relaxed">
